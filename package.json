@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "vue build src/Todo.vue -d todo.wdgt",
+    "build": "vue build src/Todo.vue",
     "dev": "vue serve src/Todo.vue",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
