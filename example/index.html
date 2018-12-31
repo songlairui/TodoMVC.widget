@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html data-framework="vue">
+  <head>
+    <meta charset="utf-8" />
+    <title>Vue.js • TodoMVC</title>
+    <link rel="stylesheet" href="./index.css" />
+    <style>
+      [v-cloak] {
+        display: none;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="todoapp"></div>
+
+    <footer class="info">
+      <p>Double-click to edit a todo</p>
+      <p>Written by <a href="http://evanyou.me">Evan You</a></p>
+      <p>Part of <a href="http://todomvc.com">TodoMVC</a></p>
+    </footer>
+
+    <script>
+      // for testing
+      if (navigator.userAgent.indexOf('PhantomJS') > -1) localStorage.clear();
+    </script>
+    <!-- Delete ".min" for console warnings in development -->
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.21/dist/vue.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
